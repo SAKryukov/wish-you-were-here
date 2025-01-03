@@ -1,0 +1,29 @@
+﻿<!--
+    Copyright (C) 2024 by Sergey A Kryukov
+    https://www.SAKryukov.org
+    https://github.com/SAKryukov
+    https://www.codeproject.com/Members/SAKryukov
+-->
+
+<Project>
+ 
+  <PropertyGroup> <!-- customize:  -->
+
+    <TargetFramework>net9.0</TargetFramework>
+    <CustomUnifiedVersion>0.1.0.0</CustomUnifiedVersion>
+    <!-- can be alpha, beta, RC1, RC2, etc.: -->
+    <CustomInformationalVersionSuffix></CustomInformationalVersionSuffix>
+
+    <Copyright>Copyright © 2024 Sergey A Kryukov</Copyright>
+    <Product>Wish You Were Here... Only Once</Product>
+    <Description>Context-depending conditions</Description>
+    <Company>SA</Company>
+    <AssemblyTitle>$(Product) Demo</AssemblyTitle>
+
+  </PropertyGroup>
+
+  <PropertyGroup> <!-- customize:  -->
+    <RootNamespace>SA</RootNamespace>
+  </PropertyGroup>
+
+</Project>

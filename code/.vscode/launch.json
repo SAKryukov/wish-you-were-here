@@ -1,0 +1,34 @@
+{
+    "version": "0.2.0",
+    "configurations": [        
+        {
+            "name": "BAD!!!",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/Tests/Console/Console.csproj"
+        },
+
+        {
+            "name": "Build All", // just builds
+            "type": "node", //node.js with an arg to do nothing
+            "args": ["none"],
+            "request": "launch",
+            "postDebugTask": "Build All",
+            "console": "internalConsole"
+        },
+        {
+            "name": "Debug Console",
+            "type": "coreclr",
+            "request": "launch",
+            //"preLaunchTask": "build",
+            "windows": {
+                "program": "${workspaceFolder}/output.Debug.AnyCPU/Console.exe",    
+            },
+            "program": "${workspaceFolder}/output.Debug.AnyCPU/Console",
+            "stopAtEntry": true,
+            "logging": { "moduleLoad": false },
+            "console": "internalConsole",
+        },
+
+    ]
+}

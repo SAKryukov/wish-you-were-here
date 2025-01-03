@@ -1,0 +1,14 @@
+﻿<!--
+    FirstTime Utility Test
+    
+    Copyright (C) 2009-2017 by Sergey A Kryukov
+    http://www.SAKryukov.org
+-->
+    <Application x:Class="FirstTimeWpfSample.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    StartupUri="WindowMain.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

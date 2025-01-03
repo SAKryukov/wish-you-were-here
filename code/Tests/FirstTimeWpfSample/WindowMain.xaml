@@ -1,0 +1,27 @@
+﻿<!--
+    FirstTime Utility Test
+    
+    Copyright (C) 2009-2017 by Sergey A Kryukov
+    http://www.SAKryukov.org
+-->
+<Window x:Class="FirstTimeWpfSample.WindowMain"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        FontSize="12"
+    Title=" FirstTime Test: Main Window" Height="272" Width="531">
+    <DockPanel>
+        <DockPanel DockPanel.Dock="Top" Height="162">
+            <Grid Height="155">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="170">
+                    </ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBlock Name="introduction" Margin="8 8 0 8" Padding="12" Background="YellowGreen" HorizontalAlignment="Center">
+                </TextBlock>
+                <Button Name="buttonTestInstance" Grid.Column="1" Height="30" Margin="8">_Test Instance Code</Button>
+            </Grid>
+        </DockPanel>
+        <ListBox Name="listBoxReport" />
+    </DockPanel>
+</Window>
